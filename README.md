@@ -21,7 +21,9 @@ You could probably do it manually, but I personally don't think it would be a go
     brainmelt [options] [file]
 
 If you want to pass input, use `[input] | brainmelt [options] [file]`
+
 If you want to pass a string as the file, use ```[brainfuck code] | brainmelt [options] -```
+
 Note: if you want vanilla brainfuck, just don't pass any options
 ### Command Line Options
 
