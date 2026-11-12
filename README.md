@@ -13,7 +13,7 @@ Requirements:
 git clone kumolii/brainmelt
 cd brainmelt
 chmod +x *.sh
-./build.sh # Note: this will install brainmelt to /bin/brainmelt and also output it to ./dist
+./build.sh # Note: this will install brainmelt to /usr/bin/brainmelt and also output it to ./dist
 ```
 You could probably do it manually, but I personally don't think it would be a good idea.
 ## Usage

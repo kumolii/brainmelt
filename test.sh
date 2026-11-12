@@ -40,3 +40,5 @@ runTest "outside working directory" "cd /tmp && \"$binary\" \"$PWD/tests/hellowo
 runTest "Twinkle" "\"$binary\" ./tests/twinkle.bf" "d10dc4feace54a4c3b15aeeda613e3a4377c53d0266f4eacb362ca100bb954b8" sha
 runTest "Slow Test" "\"$binary\" ./tests/slowTest.bf" "fc099771419c6d5dcdd4c3b0e9acb477d88d18b77579c7d147666660039bbb86" sha
 runTest "Slower Test" "\"$binary\" ./tests/bigTest.bf" "b05e3dde6c811e65b5ccf47bb0669f901075d8f2800dc95a771113abb0a157c4" sha
+echo "Small Binary:"
+runTest "Hello World" "./dist/brainmeltSmall ./tests/helloworld.bf" "Hello World!"
