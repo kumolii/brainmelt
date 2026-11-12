@@ -41,5 +41,7 @@ Note: if you want vanilla brainfuck, just don't pass any options
 Note: Cells for display are reserved BEFORE cells for audio. So by default, the first 900 cells are reserved for display, and the 10 cells AFTER that are reserved for audio. Enabling rgb triples the display cell reservation count.
 ## Why?
 got bored and decided i wanted to make a brainfuck interpreter with video support
+
 it can also play bad apple lol
+
 https://x.com/KumoliiPaws/status/2120687770901299569
