@@ -7,7 +7,7 @@ local valueOptions = {
 	["-s"] = "size", ["--size"] = "size",
 	["-c"] = "color", ["--color"] = "color",
 	["-f"] = "maxfps", ["--maxfps"] = "maxfps",
-	["-l"] = "soundLength", ["-soundLength"] = "soundLength",
+	["-l"] = "soundLength", ["--soundLength"] = "soundLength",
 	["--soundLength"] = "soundLength",
 }
 

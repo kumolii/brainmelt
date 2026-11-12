@@ -1,4 +1,5 @@
 -- This is probably the biggest part of brainmelt simply because of the copious amounts of optimizations I tried to add here
+-- sorry to whoever decides to fork this
 
 local readAll = require("./file").readAll
 
@@ -79,7 +80,7 @@ local function initializeDisplay(options)
 		io.stderr:write("error: SDL initialization failed: " .. ffi.string(sdl.SDL_GetError()) .. "\n")
 		os.exit(1)
 	end
-	local window = sdl.SDL_CreateWindow("Brainfuck memory", 0x2FFF0000, 0x2FFF0000,
+	local window = sdl.SDL_CreateWindow("Brainmelt", 0x2FFF0000, 0x2FFF0000,
 		options.width * options.size, options.height * options.size, 4)
 	if window == nil then
 		io.stderr:write("error: cannot create display window: " .. ffi.string(sdl.SDL_GetError()) .. "\n")
